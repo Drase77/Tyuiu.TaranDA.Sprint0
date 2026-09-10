@@ -12,7 +12,7 @@ namespace Tyuiu.TaranDA.Sprint0.Task2.V0.Test
             var name = "Данил";
             var res = DataService.GetMessage(name);
 
-            Assert.AreEqual("Привет, Данил", res);
+            Assert.AreEqual("Привет, Данил!", res);
         }
     }
 }
